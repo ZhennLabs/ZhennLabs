@@ -23,9 +23,22 @@
 
 <br/>
 
-<!-- Tech Stack Icons -->
+<!-- Tech Stack Icons (Grouped) -->
 <p>
-  <img src="https://skillicons.dev/icons?i=py,go,php,js,dart,react,laravel,tailwind,flask,sklearn,tensorflow,postgres,mysql,git,vercel&theme=dark&perline=8" alt="Tech Stack" />
+  <sub><b>Languages</b></sub><br/>
+  <img src="https://skillicons.dev/icons?i=py,go,php,js,dart&theme=dark" alt="Languages" />
+</p>
+<p>
+  <sub><b>Frameworks &amp; UI</b></sub><br/>
+  <img src="https://skillicons.dev/icons?i=react,laravel,tailwind,flask&theme=dark" alt="Frameworks & UI" />
+</p>
+<p>
+  <sub><b>AI / ML &amp; Data</b></sub><br/>
+  <img src="https://skillicons.dev/icons?i=sklearn,tensorflow&theme=dark" alt="AI & ML" />
+</p>
+<p>
+  <sub><b>Database &amp; Tools</b></sub><br/>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,git,vercel&theme=dark" alt="Database & Tools" />
 </p>
 
 <br/>
