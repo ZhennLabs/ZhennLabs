@@ -48,13 +48,6 @@
 
 <br/>
 
-<!-- Streak -->
-<p>
-  <a href="https://github.com/ZhennLabs">
-    <img height="165em" src="https://streak-stats.demolab.com/?user=ZhennLabs&background=000000&border=1A1A1A&stroke=1A1A1A&ring=2DD4BF&fire=F59E0B&currStreakLabel=2DD4BF&sideLabels=F0F0F0&currStreakNum=F0F0F0&sideNums=2DD4BF&dates=6B6B6B" alt="GitHub Streak" />
-  </a>
-</p>
-
 <!-- Contribution Snake Animation -->
 <p>
   <img src="https://raw.githubusercontent.com/ZhennLabs/ZhennLabs/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" />
