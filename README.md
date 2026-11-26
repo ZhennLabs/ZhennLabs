@@ -48,9 +48,19 @@
 
 <br/>
 
-<!-- Contribution Snake Animation -->
+<!-- Contribution Snake Animation + Activity & Repo Info -->
 <p>
+  <sub><b>Contribution Activity (Last 12 Months)</b></sub><br/>
   <img src="https://raw.githubusercontent.com/ZhennLabs/ZhennLabs/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" />
+</p>
+<p>
+  <a href="https://github.com/ZhennLabs?tab=repositories">
+    <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/ZhennLabs&query=$.public_repos&label=Public%20Repos&color=2DD4BF&labelColor=000000&style=flat-square" alt="Public Repos" />
+  </a>
+  <a href="https://github.com/ZhennLabs?tab=followers">
+    <img src="https://img.shields.io/github/followers/ZhennLabs?style=flat-square&label=Followers&color=F59E0B&labelColor=000000" alt="Followers" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=ZhennLabs&label=Profile%20Views&color=2DD4BF&labelColor=000000&style=flat-square" alt="Profile Views" />
 </p>
 
 </div>
