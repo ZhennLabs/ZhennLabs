@@ -57,8 +57,8 @@
   <a href="https://github.com/ZhennLabs?tab=repositories">
     <img src="https://badgen.net/badge/Public%20Repos/14/2DD4BF?labelColor=000000" alt="Public Repos" />
   </a>
-  <a href="https://user-zhenn-portfolio.vercel.app/">
-    <img src="https://badgen.net/badge/Experience/3%2B%20Years/F59E0B?labelColor=000000" alt="Experience" />
+  <a href="https://github.com/ZhennLabs">
+    <img src="https://badgen.net/badge/On%20GitHub/Since%20Aug%202024/F59E0B?labelColor=000000" alt="On GitHub Since Aug 2024" />
   </a>
   <img src="https://komarev.com/ghpvc/?username=ZhennLabs&label=Profile%20Views&color=2DD4BF&style=flat-square" alt="Profile Views" />
 </p>
