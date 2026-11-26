@@ -1,8 +1,8 @@
 <div align="center">
 
-<!-- Nama -->
+<!-- Floating Name Header -->
 <a href="https://user-zhenn-portfolio.vercel.app/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2DD4BF&center=true&vCenter=true&width=650&height=55&lines=Henokh+Rudolf+Christofle+(ZhennLabs);Full-Stack+AI+Engineer" alt="Henokh Rudolf Christofle" />
+  <img src="./header.svg" alt="Henokh Rudolf Christofle (ZhennLabs)" />
 </a>
 
 <!-- Socmed -->
