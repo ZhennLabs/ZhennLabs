@@ -2,7 +2,7 @@
 
 <!-- Floating Name Header -->
 <a href="https://user-zhenn-portfolio.vercel.app/">
-  <img src="./header.svg" alt="Henokh Rudolf Christofle (ZhennLabs)" />
+  <img src="./header.svg?v=2" alt="Henokh Rudolf Christofle (ZhennLabs)" />
 </a>
 
 <!-- Socmed -->
