@@ -1,43 +1,93 @@
-<svg width="720" height="115" viewBox="0 0 720 115" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="190" viewBox="0 0 800 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0" />
+      <stop offset="50%" stop-color="#2DD4BF" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient id="softGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
   <style>
     @keyframes float {
       0%, 100% {
-        transform: translate3d(0, 2px, 0);
+        transform: translate3d(0, 3px, 0);
       }
       50% {
-        transform: translate3d(0, -8px, 0);
+        transform: translate3d(0, -7px, 0);
       }
     }
     .floating {
-      animation: float 3s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
+      animation: float 3.4s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
       will-change: transform;
     }
   </style>
 
+  <!-- Subtle radial glow -->
+  <ellipse cx="400" cy="95" rx="340" ry="70" fill="url(#softGlow)" />
+
+  <!-- Top tagline (matching Slide 1 Personal.pdf) -->
+  <text
+    x="400"
+    y="32"
+    text-anchor="middle"
+    text-rendering="geometricPrecision"
+    fill="#9CA3AF"
+    font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace"
+    font-size="10.5"
+    letter-spacing="2.4">
+    WEB DEVELOPER &amp; IT STUDENT BUILDING MODERN WEB APPLICATIONS
+  </text>
+
+  <!-- Floating Editorial Title Block -->
   <g class="floating">
+    <!-- Italic kicker -->
     <text
-      x="50%"
-      y="56"
-      text-anchor="middle"
+      x="568"
+      y="68"
+      text-anchor="end"
       text-rendering="geometricPrecision"
       fill="#2DD4BF"
       font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-      font-size="32"
-      font-weight="800"
-      letter-spacing="1.5">
-      HENOKH RUDOLF CHRISTOFLE
+      font-size="18"
+      font-style="italic"
+      font-weight="400"
+      letter-spacing="3">
+      PERSONAL
     </text>
+
+    <!-- Wide-tracked Display Name -->
     <text
-      x="50%"
-      y="84"
+      x="400"
+      y="112"
       text-anchor="middle"
       text-rendering="geometricPrecision"
-      fill="#F0F0F0"
-      font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace"
-      font-size="13"
-      font-weight="500"
-      letter-spacing="2">
-      ZHENNLABS <tspan fill="#F59E0B">·</tspan> WEB DEVELOPER
+      fill="#F3F3F3"
+      font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+      font-size="40"
+      font-weight="300"
+      letter-spacing="12">
+      HENOKH R C
+    </text>
+
+    <!-- Subtitle (Web Developer · ZhennLabs) -->
+    <text
+      x="400"
+      y="144"
+      text-anchor="middle"
+      text-rendering="geometricPrecision"
+      fill="#D1D5DB"
+      font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+      font-size="15"
+      font-weight="400"
+      letter-spacing="1.2">
+      Web Developer <tspan fill="#F59E0B">·</tspan> <tspan fill="#2DD4BF" font-weight="600" font-size="17">ZhennLabs</tspan>
     </text>
   </g>
+
+  <!-- Bottom hairline accent -->
+  <rect x="140" y="168" width="520" height="1" fill="url(#accentLine)" />
 </svg>
