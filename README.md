@@ -1,68 +1,93 @@
-<div align="center">
+<svg width="800" height="190" viewBox="0 0 800 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0" />
+      <stop offset="50%" stop-color="#2DD4BF" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient id="softGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+  </defs>
 
-<!-- Floating Name Header -->
-<a href="https://user-zhenn-portfolio.vercel.app/">
-  <img src="./header.svg" alt="Henokh Rudolf Christofle (ZhennLabs)" />
-</a>
+  <style>
+    @keyframes float {
+      0%, 100% {
+        transform: translate3d(0, 3px, 0);
+      }
+      50% {
+        transform: translate3d(0, -7px, 0);
+      }
+    }
+    .floating {
+      animation: float 3.4s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
+      will-change: transform;
+    }
+  </style>
 
-<!-- Socmed -->
-<p>
-  <a href="https://user-zhenn-portfolio.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=2DD4BF" alt="Portfolio" />
-  </a>
-  <a href="https://www.linkedin.com/in/henokh-rudolf-christofle-9643b0322/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=2DD4BF" alt="LinkedIn" />
-  </a>
-  <a href="https://www.instagram.com/henokhrdlfx/" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=F59E0B" alt="Instagram" />
-  </a>
-  <a href="mailto:henokhrudolfchr@gmail.com">
-    <img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=2DD4BF" alt="Email" />
-  </a>
-</p>
+  <!-- Subtle radial glow -->
+  <ellipse cx="400" cy="95" rx="340" ry="70" fill="url(#softGlow)" />
 
-<br/>
+  <!-- Top tagline (matching Slide 1 Personal.pdf) -->
+  <text
+    x="400"
+    y="32"
+    text-anchor="middle"
+    text-rendering="geometricPrecision"
+    fill="#9CA3AF"
+    font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace"
+    font-size="10.5"
+    letter-spacing="2.4">
+    WEB DEVELOPER &amp; IT STUDENT BUILDING MODERN WEB APPLICATIONS
+  </text>
 
-<!-- Tech Stack Icons (Grouped, Compact, No Grid Borders + Tooltip) -->
-<p>
-  <sub><b>Languages</b></sub> &nbsp;·&nbsp;
-  <a href="#tech-stack" title="Python"><img src="https://skillicons.dev/icons?i=py&theme=dark" width="34" align="absmiddle" alt="Python" /></a>
-  <a href="#tech-stack" title="Golang"><img src="https://skillicons.dev/icons?i=go&theme=dark" width="34" align="absmiddle" alt="Golang" /></a>
-  <a href="#tech-stack" title="PHP"><img src="https://skillicons.dev/icons?i=php&theme=dark" width="34" align="absmiddle" alt="PHP" /></a>
-  <a href="#tech-stack" title="JavaScript"><img src="https://skillicons.dev/icons?i=js&theme=dark" width="34" align="absmiddle" alt="JavaScript" /></a>
-  <a href="#tech-stack" title="Dart"><img src="https://skillicons.dev/icons?i=dart&theme=dark" width="34" align="absmiddle" alt="Dart" /></a>
-</p>
-<p>
-  <sub><b>Frameworks &amp; UI</b></sub> &nbsp;·&nbsp;
-  <a href="#tech-stack" title="React.js"><img src="https://skillicons.dev/icons?i=react&theme=dark" width="34" align="absmiddle" alt="React.js" /></a>
-  <a href="#tech-stack" title="Laravel"><img src="https://skillicons.dev/icons?i=laravel&theme=dark" width="34" align="absmiddle" alt="Laravel" /></a>
-  <a href="#tech-stack" title="Tailwind CSS"><img src="https://skillicons.dev/icons?i=tailwind&theme=dark" width="34" align="absmiddle" alt="Tailwind CSS" /></a>
-  <a href="#tech-stack" title="Flask"><img src="https://skillicons.dev/icons?i=flask&theme=dark" width="34" align="absmiddle" alt="Flask" /></a>
-</p>
-<p>
-  <sub><b>AI / ML</b></sub> &nbsp;·&nbsp;
-  <a href="#tech-stack" title="Scikit-Learn"><img src="https://skillicons.dev/icons?i=sklearn&theme=dark" width="34" align="absmiddle" alt="Scikit-Learn" /></a>
-  <a href="#tech-stack" title="TensorFlow"><img src="https://skillicons.dev/icons?i=tensorflow&theme=dark" width="34" align="absmiddle" alt="TensorFlow" /></a>
-  &nbsp;&nbsp;&nbsp;
-  <sub><b>Database &amp; Tools</b></sub> &nbsp;·&nbsp;
-  <a href="#tech-stack" title="PostgreSQL"><img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="34" align="absmiddle" alt="PostgreSQL" /></a>
-  <a href="#tech-stack" title="MySQL"><img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="34" align="absmiddle" alt="MySQL" /></a>
-  <a href="#tech-stack" title="Git"><img src="https://skillicons.dev/icons?i=git&theme=dark" width="34" align="absmiddle" alt="Git" /></a>
-  <a href="#tech-stack" title="Vercel"><img src="https://skillicons.dev/icons?i=vercel&theme=dark" width="34" align="absmiddle" alt="Vercel" /></a>
-</p>
+  <!-- Floating Editorial Title Block -->
+  <g class="floating">
+    <!-- Italic kicker -->
+    <text
+      x="568"
+      y="68"
+      text-anchor="end"
+      text-rendering="geometricPrecision"
+      fill="#2DD4BF"
+      font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+      font-size="18"
+      font-style="italic"
+      font-weight="400"
+      letter-spacing="3">
+      PERSONAL
+    </text>
 
-<br/>
+    <!-- Wide-tracked Display Name -->
+    <text
+      x="400"
+      y="112"
+      text-anchor="middle"
+      text-rendering="geometricPrecision"
+      fill="#F3F3F3"
+      font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+      font-size="40"
+      font-weight="300"
+      letter-spacing="12">
+      HENOKH R C
+    </text>
 
-<!-- Streak -->
-<p>
-  <a href="https://github.com/ZhennLabs">
-    <img height="165em" src="https://streak-stats.demolab.com/?user=ZhennLabs&background=000000&border=1A1A1A&stroke=1A1A1A&ring=2DD4BF&fire=F59E0B&currStreakLabel=2DD4BF&sideLabels=F0F0F0&currStreakNum=F0F0F0&sideNums=2DD4BF&dates=6B6B6B" alt="GitHub Streak" />
-  </a>
-</p>
+    <!-- Subtitle (Web Developer · ZhennLabs) -->
+    <text
+      x="400"
+      y="144"
+      text-anchor="middle"
+      text-rendering="geometricPrecision"
+      fill="#D1D5DB"
+      font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+      font-size="15"
+      font-weight="400"
+      letter-spacing="1.2">
+      Web Developer <tspan fill="#F59E0B">·</tspan> <tspan fill="#2DD4BF" font-weight="600" font-size="17">ZhennLabs</tspan>
+    </text>
+  </g>
 
-<!-- Contribution Snake Animation -->
-<p>
-  <img src="https://raw.githubusercontent.com/ZhennLabs/ZhennLabs/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" />
-</p>
-
-</div>
+  <!-- Bottom hairline accent -->
+  <rect x="140" y="168" width="520" height="1" fill="url(#accentLine)" />
+</svg>
