@@ -60,11 +60,8 @@
 
 <br/>
 
-<!-- Contribution & Streak -->
+<!-- Streak (Contribution graph menggunakan bawaan GitHub di bawah README) -->
 <p>
-  <a href="https://github.com/ZhennLabs">
-    <img height="165em" src="https://github-readme-stats.vercel.app/api?username=ZhennLabs&show_icons=true&bg_color=000000&title_color=2DD4BF&icon_color=F59E0B&text_color=F0F0F0&border_color=1A1A1A" alt="GitHub Stats" />
-  </a>
   <a href="https://github.com/ZhennLabs">
     <img height="165em" src="https://streak-stats.demolab.com/?user=ZhennLabs&background=000000&border=1A1A1A&stroke=1A1A1A&ring=2DD4BF&fire=F59E0B&currStreakLabel=2DD4BF&sideLabels=F0F0F0&currStreakNum=F0F0F0&sideNums=2DD4BF&dates=6B6B6B" alt="GitHub Streak" />
   </a>
